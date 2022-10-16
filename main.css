@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.ticket1 {
+    box-sizing: border-box;
+    width: 1070px;
+    height: 370px;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    margin: 67px auto 0 auto;
+}
+.container {
+    display: flex;
+    justify-content: start;
+}
+.title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    margin: 16px 17px 0 23px;
+}
+.time {
+    margin: 13px 0 21px 23px;
+    display: flex;
+    justify-content: start;
+}
+.clock {
+    position: absolute;
+    margin: 2.77px 3.17px 6.93px 7.26px;
+}
+.time-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9E9E9E;
+    margin-left: 6px;
+}
+.points {
+    margin: 0 0 13px 23px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.point-text {
+    margin-left: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #343434;
+    margin-right: 10px;
+}
+.point-time {
+    background: #C5DCFF;
+    border-radius: 11px;
+    width: 73px;
+    margin-right: 7px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #343434;
+    padding: 3px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.point-time:hover {
+    background: #6BA6FF;
+    color: #fff;
+}
+.more {
+    margin: 26px 0 0 23px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+}
+.price-jetty {
+    margin-top: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.more-button {
+    background: #FFD83C;
+    border-radius: 23px;
+    width: 187px;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #292929;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.novelty {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background: #099CE8;
+    border-radius: 0px;
+    width: 154px;
+    text-align: center;
+    padding: 13px 0;
+    margin-top: 46px;
+}

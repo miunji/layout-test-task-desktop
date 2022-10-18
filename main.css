@@ -123,3 +123,34 @@
     padding: 13px 0;
     margin-top: 46px;
 }
+.ticket2 {
+    box-sizing: border-box;
+    width: 1106px;
+    height: 370px;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    margin: 67px auto 0 auto;
+}
+.all-year {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323232;
+    background: #FFD83B;
+    border-radius: 0px;
+    width: 180px;
+    text-align: center;
+    padding: 13px 0;
+    margin-top: 46px;
+}
+.ticket3 {
+    box-sizing: border-box;
+    width: 1106px;
+    height: 370px;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    margin: 67px auto 0 auto;
+}

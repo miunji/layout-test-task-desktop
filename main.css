@@ -44,6 +44,13 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.points-time {
+    margin: 0 0 13px 65px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .point-text {
     margin-left: 14px;
     font-family: 'Open Sans';
@@ -154,4 +161,86 @@
     border: 0.5px solid #8E8E8E;
     border-radius: 15px;
     margin: 67px auto 0 auto;
+}
+.ticket1-mobile {
+    display: none;
+    box-sizing: border-box;
+    width: 341px;
+    max-height: 100%;
+    border: 0.5px solid #8E8E8E;
+    border-radius: 15px;
+    margin: 67px auto 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .ticket1 { 
+        display: none;
+    }
+    .ticket2 {
+        display: none;
+    }
+    .ticket3 {
+        display: none;
+    }
+    .ticket1-mobile {
+        display: block;
+    }
+    .title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        color: #404040;
+        margin: 0 0 20px 12px;
+    }
+    .time {
+        margin: 14px 0 10px 12px;
+    }
+    .points {
+        margin: 0 0 9px 12px;
+        flex-wrap: nowrap;
+    }
+    .point-text {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .points-time {
+        margin: 0 0 30px 49px;
+    }
+    .point-time {
+        width: 63px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .more {
+        margin: 0 19px 19px 19px;
+        justify-content: space-between;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .price img {
+        height: 23px;
+    }
+    .price-jetty {
+        font-size: 10px;
+    }
+    .more-button {
+        width: 165px;
+        font-size: 14px;
+    }
+    .novelty {
+        width: 99px;
+        background: #FED74B;
+        border-radius: 0px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #3E3E3E;
+        margin-top: 41px;
+        padding: 8px 0;
+    }
 }

@@ -2,7 +2,7 @@
 .ticket1 {
     box-sizing: border-box;
     width: 1070px;
-    height: 370px;
+    max-height: 100%;
     border: 0.5px solid #8E8E8E;
     border-radius: 15px;
     margin: 67px auto 0 auto;
@@ -42,6 +42,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .point-text {
     margin-left: 14px;
@@ -73,7 +74,7 @@
     color: #fff;
 }
 .more {
-    margin: 26px 0 0 23px;
+    margin: 26px 0 32px 23px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -126,7 +127,7 @@
 .ticket2 {
     box-sizing: border-box;
     width: 1106px;
-    height: 370px;
+    max-height: 100%;
     border: 0.5px solid #8E8E8E;
     border-radius: 15px;
     margin: 67px auto 0 auto;
@@ -149,7 +150,7 @@
 .ticket3 {
     box-sizing: border-box;
     width: 1106px;
-    height: 370px;
+    max-height: 100%;
     border: 0.5px solid #8E8E8E;
     border-radius: 15px;
     margin: 67px auto 0 auto;
